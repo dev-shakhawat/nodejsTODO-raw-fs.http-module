@@ -6,6 +6,11 @@ This is a raw node.js Todo project using two (fs and http) module.
 3. Open postman .
 4. The base url for postman is ---> localhost:8080
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 ==== ADD TODO ====  <br>
@@ -13,7 +18,12 @@ MATHOD  : POST  <br>
 URL     : localhost:8080/addTodo  <br>
 Body    : {"title" : "Add as you want"}    ===> JSON format  <br>
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 ==== GET TODO ====  <br>
@@ -21,11 +31,32 @@ MATHOD  : GET  <br>
 URL     : localhost:8080/readTodo  <br>
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
 
 ==== UPDATE TODO ====  <br>
 MATHOD  : PATCH  <br>
 URL     : localhost:8080/updateTodo  <br>
 Body    : {"title" : "Change as you want" , "isCompleted": true/false -- as your wish}    ===> JSON format  <br>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 
 
