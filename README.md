@@ -7,27 +7,29 @@ This is a raw node.js Todo project using two (fs and http) module.
 4. The base url for postman is ---> localhost:8080
 
 
-==== ADD TODO ====
-MATHOD  : POST
-URL     : localhost:8080/addTodo
-Body    : {"title" : "Add as you want"}    ===> JSON format
+
+==== ADD TODO ====  <br>
+MATHOD  : POST  <br>
+URL     : localhost:8080/addTodo  <br>
+Body    : {"title" : "Add as you want"}    ===> JSON format  <br>
 
 
 
-==== GET TODO ====
-MATHOD  : GET
-URL     : localhost:8080/readTodo
+
+==== GET TODO ====  <br>
+MATHOD  : GET  <br>
+URL     : localhost:8080/readTodo  <br>
 
 
 
-==== UPDATE TODO ====
-MATHOD  : PATCH
-URL     : localhost:8080/updateTodo
-Body    : {"title" : "Change as you want" , "isCompleted": true/false -- as your wish}    ===> JSON format
+==== UPDATE TODO ====  <br>
+MATHOD  : PATCH  <br>
+URL     : localhost:8080/updateTodo  <br>
+Body    : {"title" : "Change as you want" , "isCompleted": true/false -- as your wish}    ===> JSON format  <br>
 
 
 
-==== DELETE TODO ====
-MATHOD  : DELETE
-URL     : localhost:8080/deleteTodo
-Body    : {"id" : "Enter a id from todo.json file"}    ===> JSON format
+==== DELETE TODO ====  <br>
+MATHOD  : DELETE   <br>
+URL     : localhost:8080/deleteTodo  <br>
+Body    : {"id" : "Enter a id from todo.json file"}    ===> JSON format  <br>
